@@ -53,7 +53,7 @@ void changeButtonState(int current) {
     /// While green button count is lower than total buttons
     while (greenButtonCount < totalButtons) {
         
-      /// Check if the button at generated new index [next]
+      /// Check if the button at generated new index [next] is green
       if (getButtonState(next) == ButtonState.green) {
           
         /// If it is, generate a new random button less than [totalButtons]
